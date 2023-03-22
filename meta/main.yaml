@@ -1,0 +1,18 @@
+# file: k3s-reset/meta/main.yml
+# synopsis: Reset the K3s nodes
+---
+galaxy_info:
+  role_name: k3s_reset
+  author: crazyelectron-io
+  description: Reset the K3s nodes
+  company: 'clouds+more'
+  license: license (GPLv3)
+  min_ansible_version: '2.9'
+  platforms:
+    - name: Debian
+      versions:
+        - bullseye
+  galaxy_tags:
+    - debian
+
+dependencies: []
